@@ -1,0 +1,28 @@
+
+
+============================== 2023-03-11 03:58:00.704005 | f1721bf9-fdf3-4e8e-97af-e14e838c2c0d ==============================
+[0m03:58:00.704005 [info ] [MainThread]: Running with dbt=1.4.5
+[0m03:58:00.706096 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/ishan/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m03:58:00.706343 [debug] [MainThread]: Tracking: tracking
+[0m03:58:00.715223 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7621b6820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7621b6130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7621b6d00>]}
+[0m03:58:00.716246 [info ] [MainThread]: Creating dbt configuration folder at /home/ishan/.dbt
+[0m03:58:29.552833 [debug] [MainThread]: Starter project path: /home/ishan/anaconda3/lib/python3.9/site-packages/dbt/include/starter_project
+[0m03:58:32.457300 [info ] [MainThread]: Profile database_build_tool written to /home/ishan/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m03:58:32.457954 [info ] [MainThread]: 
+Your new dbt project "database_build_tool" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:58:32.458601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc76355b4f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc762197fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc7621b98b0>]}
+[0m03:58:32.459061 [debug] [MainThread]: Flushing usage events

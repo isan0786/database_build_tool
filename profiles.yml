@@ -1,0 +1,24 @@
+database_build_tool:
+  outputs:
+
+    dev:
+      type: postgres
+      threads: 3
+      host: localhost
+      port: 5432
+      user: add_database_user
+      pass: add_password_here
+      dbname: datasets
+      schema: warehouse
+
+    prod:
+      type: postgres
+      threads: 3
+      host: localhost
+      port: 5432
+      user: add_database_user
+      pass: add_password_here
+      dbname: datasets
+      schema: warehouse
+
+  target: dev
